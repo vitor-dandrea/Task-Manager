@@ -16,6 +16,12 @@ class Task extends Model
         'due_date'
     ];
 
+    protected $casts = [
+        'due_date' => 'date',
+        'created_at' => 'datetime', 
+        'updated_at' => 'datetime', 
+    ];
+
     public function estaPendente()
     {
         return $this->status === 'pendente';
