@@ -123,3 +123,44 @@ ou (para uma rápida e melhor visualização dos registros via terminal)
 - Alguns testes unitários foram feitos e executados, através do PHPUnit, para o Model e o Controller da aplicação. 
 
 - Alguns dos conceitos abordados na Parte 1 do projeto também foram implementados para garantir seu desenvolvimento ou sua otimização. Tais como os migrations para desenvolver o banco de dados e o API resource.
+
+## Guia de Estrutura Geral do Projeto (somente os arquivos mais relevantes)
+### Observação: arquivos padrões do Laravel foram mantidos na aplicação, mas omitidos desta estrutura.
+
+.  
+├── ./app  
+│   ├── ./app/Http  
+│   │   ├── ./app/Http/Controllers  
+│   │   │   ├── ./app/Http/Controllers/Api  
+│   │   │   │   └── ./app/Http/Controllers/Api/TaskController.php  
+│   │   ├── ./app/Http/Resources  
+│   │   │   └── ./app/Http/Resources/TaskResource.php  
+│   ├── ./app/Models  
+│   │   ├── ./app/Models/Task.php  
+├── ./database  
+│   ├── ./database/factories  
+│   │   ├── ./database/factories/TaskFactory.php  
+│   ├── ./database/migrations  
+│   │   └── ./database/migrations/2025_03_28_192433_create_tasks_table.php  
+│   └── ./database/seeders  
+│       └── ./database/seeders/TaskSeeder.php  
+├── ./routes  
+│   ├── ./routes/api.php  
+├── ./tests  
+│   ├── ./tests/Feature  
+│   │   └── ./tests/Feature/TaskControllerTest.php  
+│   ├── ./tests/Unit  
+│   │   └── ./tests/Unit/TaskTest.php  
+│   └── ./tests/TestCase.php  
+├── ./artisan  
+├── ./composer.json  
+├── ./composer.lock  
+├── ./elect('SHOW TABLES');  
+├── ./estrutura_projeto.txt  
+├── ./package.json  
+├── ./phpunit.xml  
+├── ./README.md  
+└── ./vite.config.js  
+
+
+
