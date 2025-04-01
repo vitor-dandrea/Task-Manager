@@ -4,7 +4,7 @@ Sistema de gerenciamento de tarefas desenvolvido em Laravel com operações CRUD
 
 ## Observação
   
-A Parte 1 deste README contém as respostas teóricas, mantidas aqui exclusivamente como meio de facilitar sua consulta.
+### A Parte 1 deste README contém as respostas teóricas, mantidas aqui exclusivamente como meio de facilitar sua consulta.
 
 ## Parte 1 - Conceitos Teóricos
 
