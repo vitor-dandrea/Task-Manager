@@ -1,8 +1,6 @@
 # Task Manager
 
-Sistema de gerenciamento de tarefas desenvolvido em Laravel com operações CRUD (criar, ler, atualizar e deletar), contendo regras de negócio para controle dos status das tarefas.
-
-## Parte 2 - Desenvolvimento Prático
+Sistema backend de gerenciamento de tarefas desenvolvido em Laravel com operações CRUD (criar, ler, atualizar e deletar), contendo regras de negócio para controle de status das tarefas.
 
 ### Requisitos:
 
@@ -86,8 +84,6 @@ ou (para uma rápida e melhor visualização dos registros via terminal)
 - Ambos PHP 8.1 e Laravel 10 foram escolhidos por seu LTS (suporte a longo prazo) e vasta quantia de documentação oficial e não-oficial (livros, plataformas, etc.)
 
 - Alguns testes unitários foram feitos e executados, através do PHPUnit, para o Model e o Controller da aplicação. 
-
-- Alguns dos conceitos abordados na Parte 1 do projeto também foram implementados para garantir seu desenvolvimento ou sua otimização. Tais como os migrations para desenvolver o banco de dados e o API resource.
 
 ## Guia de Estrutura Geral do Projeto (somente os arquivos mais relevantes)
 ### Observação: arquivos padrões do Laravel foram mantidos na aplicação, mas omitidos desta estrutura.
