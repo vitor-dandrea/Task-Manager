@@ -2,41 +2,6 @@
 
 Sistema de gerenciamento de tarefas desenvolvido em Laravel com operações CRUD (criar, ler, atualizar e deletar), contendo regras de negócio para controle dos status das tarefas.
 
-## Observação
-  
-### A Parte 1 deste README contém as respostas teóricas, mantidas aqui exclusivamente como meio de facilitar sua consulta.
-
-## Parte 1 - Conceitos Teóricos
-
-#### O que são Service Providers em Laravel e para que servem?
-
-Um service provider é uma classe para encapsular a lógica que várias partes de uma aplicação precisam executar para inicializar sua funcionalidade principal.
-
-#### Qual a diferença entre hasOne e hasMany no Eloquent ORM?
-
-Trata-se de uma diferença de relacionamento. Enquanto hasOne trata de relacionamentos de 1:1 (um para um), hasMany trata de relacionamentos 1:N (um para muitos).
-
-#### O que é Dependency Injection e como ela é usada no Laravel?
-
-Dependency Injection permite que as dependências de uma classe sejam injetadas externamente. No Laravel, o container IoC gerencia isso automaticamente, resolvendo e injetando dependências com autowiring e bindings em service providers.
-
-#### Explique o conceito de middleware e dê um exemplo de uso.
-
-Um middleware pode inspecionar requisições HTTP e modificá-las ou rejeitá-las. Serve como um intermediário entre o controller e/ou a resposta ao cliente. O exemplo mais comum é a sua utilização para autenticar usuários antes de conceder o acesso as rotas.
-
-#### Como funcionam migrations e quais suas vantagens?
-
- Migrations funcionam a partir de dois métodos: up() e down (). Um para fazer as ações de sua migration e um para desfazê-las. Migrations facilitam a definição da estrutura do banco de dados com migrations baseadas em código. Cada nova tabela, coluna, índice e chave pode ser definida em código, e qualquer novo ambiente pode ser configurado, transformando bancos de dados.
-
-#### O que é Queue no Laravel e quando usá-la?
-
-A queue () é uma função nativa do Laravel para permitir o processamento de tarefas em segundo plano de forma assíncrona. Evitando sobrecargas e demoras.
-
-#### Explique a diferença entre API Resource e um Controller tradicional.
-
-Quando você trabalha em cima de APIs RESTful, a lista de ações possíveis de um API resource não é a mesma que a de um Controller tradicional. Um API Resource pode, por exemplo, transformar e padronizar seus dados antes de enviá-los.
-
-
 ## Parte 2 - Desenvolvimento Prático
 
 ### Requisitos:
